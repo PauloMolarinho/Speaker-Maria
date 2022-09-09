@@ -62,10 +62,6 @@ while True:
         print(e)
         erro1=0
         time.sleep(30)
-        
-    
-    
-    
     
     
         
@@ -97,17 +93,12 @@ while True:
             print("Nivel tanque: "+str(nivelTQ))
      
         points = result7.get_points()
+        
         for item in points:
             press_succao_negativo = item['last']
             press_succao_negativo = round(press_succao_negativo,2)
             print("press_succao_negativo: "+str(press_succao_negativo))
-        
-     
-         
-
-    
-    
-    
+       
     
         if(permissaoCO2==0):
             cont5=cont5+1
@@ -139,18 +130,7 @@ while True:
                     engine.say("usina de c ó dois parada!")
                     engine.runAndWait()
         
-                    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+            
     
     
     
@@ -189,23 +169,7 @@ while True:
                     engine.say("Atenção! O nível do tanque de água está baixo!  o nível atual do tanque de água é de: "+str(num)+"porcento")
                     engine.runAndWait()
         
-                    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+                   
         if(permissaoTZ==0):
             cont2=cont2+1
         
@@ -238,13 +202,7 @@ while True:
             
     
     
-    
-    
-    
-    
-    
-    
-    
+   
     
         if(permissaoTZ2==0):
             cont8=cont8+1
@@ -279,17 +237,6 @@ while True:
             
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
         if(permissaoTN==0):
             cont3=cont3+1
         
@@ -318,20 +265,6 @@ while True:
                 else:
                     engine.say("ATENÇÃO! Sistema Negativo com temperatura elevada, a temperatura atual é de "+str(num)+"graus celsius")
                     engine.runAndWait()
-        
-                    
-                
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -366,22 +299,7 @@ while True:
                     engine.say("ATENÇÃO! Sistema Negativo com temperatura elevada, a temperatura atual é de "+str(num)+"graus celsius")
                     engine.runAndWait()
 
-               
-        
-                
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+              
     
         if(permissaoTN3==0):
             cont9=cont9+1
@@ -413,25 +331,7 @@ while True:
                     engine.runAndWait()
     
 
-                
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+             
     
         if(permissaoSuccao==0):
             cont7=cont7+1
